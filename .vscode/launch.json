@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // "args": [
+            //     "ppo",
+            //     "--hid",
+            //     " [64,64] ",
+            //     "--exp_name",
+            //     "ppo_peg_in",
+            //     "--gamma",
+            //     "0.999",
+            //     "--seed",
+            //     "10"
+            // ]
+            "args": [
+                "--fpath",
+                "data/ppo_peg_in_hr_nr/ppo_peg_in_hr_nr_s0",
+                "--itr",
+                "200"
+            ]
+        }
+    ]
+}

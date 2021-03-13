@@ -1,0 +1,5 @@
+data/
+record/
+runs/
+tensorboard_data/
+tf_model_logs/
